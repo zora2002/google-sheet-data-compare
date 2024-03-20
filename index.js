@@ -35,7 +35,6 @@ const parseOption = {
         const firstNameIsOne = value.match(/^\W{1,2}\w$/i)
         const firstNameIsTwo = value.match(/^\W{1,2}\w\W$/i)
         rs = firstNameIsOne || firstNameIsTwo ? value.replace(/\w/i, 'O') : value
-        console.log(rs)
         break
       case 2:
         // 統一id隱碼格式
